@@ -5,7 +5,7 @@ import items from "./data";
 
 function App() {
   const [menuItems, setMenuItems] = useState(items);
-  const [categories, setCategories] = useState([]);
+  // const [categories, setCategories] = useState([]);
 
   let filterCate = items.map((e) => e.category);
   let uniqueCate = new Set(filterCate);
